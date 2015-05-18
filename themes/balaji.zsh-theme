@@ -2,7 +2,7 @@ zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.zsh
 fpath=(~/.zsh $fpath)
 #source /etc/git-completion.bash
 source /etc/git-prompt.sh
-source /Users/balaji/.zsh/zsh-git-prompt/zshrc.sh
+source ~/.zsh/zsh-git-prompt/zshrc.sh
 # an example prompt
 autoload -U colors && colors
 
@@ -45,4 +45,4 @@ alias findapk="find . -name \*.apk"
 alias conn="adb disconnect $IP; adb connect $IP:5555"
 export ZIPALIGN=$ANDROID_HOME/build-tools/21.0.0/zipalign
 
-plugins=(git bundler osx rake ruby)
+plugins=(git bundler osx rake ruby node npm emacs battery cabal cask bower docker colored-man gitfast heroku nmap sudo)
